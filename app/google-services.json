@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "678745738878",
+    "firebase_url": "https://iit-bhu-2bf10-default-rtdb.firebaseio.com",
+    "project_id": "iit-bhu-2bf10",
+    "storage_bucket": "iit-bhu-2bf10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678745738878:android:8f23a812bee21ff723122f",
+        "android_client_info": {
+          "package_name": "com.example.iitbhuapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678745738878-le7js5fo7hrcgi9s0i7d40vjcgtgf5sm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6dBa7BW3p5uNCkK3yKQHpRJVJaK2lAvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678745738878-le7js5fo7hrcgi9s0i7d40vjcgtgf5sm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678745738878:android:d001a6ea592b0b6f23122f",
+        "android_client_info": {
+          "package_name": "com.org.adminbawua"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678745738878-le7js5fo7hrcgi9s0i7d40vjcgtgf5sm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6dBa7BW3p5uNCkK3yKQHpRJVJaK2lAvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678745738878-le7js5fo7hrcgi9s0i7d40vjcgtgf5sm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".uploadpdf"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+       <Button
+           android:id="@+id/addPdf"
+
+           android:layout_width="wrap_content"
+           android:layout_height="80dp"
+
+           android:foreground="@drawable/baseline_picture_as_pdf_24"
+           android:text="select"
+           android:textSize="10sp"
+           app:icon="@android:drawable/divider_horizontal_bright"/>
+
+       <EditText
+           android:id="@+id/pdfMA102Title"
+           android:layout_width="500dp"
+           android:layout_height="30dp"
+           android:layout_weight="1"
+           android:background="#DBE5EA"
+           android:hint="pdf MA102 title"/>
+
+       <Button
+           android:id="@+id/uploadPdfButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+
+           android:text="upload"/>
+
+   </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/selectPdf"
+
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+
+            android:foreground="@drawable/baseline_picture_as_pdf_24"
+            android:text="select"
+            android:textSize="10sp"
+            app:icon="@android:drawable/divider_horizontal_bright"/>
+
+        <EditText
+            android:id="@+id/pdfMT102Title"
+            android:layout_width="500dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="#DBE5EA"
+            android:hint="pdf MT102 title"/>
+
+        <Button
+            android:id="@+id/uploadPdfButto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="upload"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/choosePdf"
+
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+
+            android:foreground="@drawable/baseline_picture_as_pdf_24"
+            android:text="select"
+            android:textSize="10sp"
+            app:icon="@android:drawable/divider_horizontal_bright"/>
+
+        <EditText
+            android:id="@+id/pdfMT101Title"
+            android:layout_width="500dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="#DBE5EA"
+            android:hint="pdf MT101 title"/>
+
+        <Button
+            android:id="@+id/uploadPdfButt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="upload"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout><LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/seePdf"
+
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+
+        android:foreground="@drawable/baseline_picture_as_pdf_24"
+        android:text="select"
+        android:textSize="10sp"
+        app:icon="@android:drawable/divider_horizontal_bright"/>
+
+    <EditText
+        android:id="@+id/pdfME103Title"
+        android:layout_width="500dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:background="#DBE5EA"
+        android:hint="pdf ME103 title"/>
+
+    <Button
+        android:id="@+id/uploadPdfBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="upload"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout><LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/lookPdf"
+
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+
+        android:foreground="@drawable/baseline_picture_as_pdf_24"
+        android:text="select"
+        android:textSize="10sp"
+        app:icon="@android:drawable/divider_horizontal_bright"/>
+
+    <EditText
+        android:id="@+id/pdfME106Title"
+        android:layout_width="500dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:background="#DBE5EA"
+        android:hint="pdf ME106 title"/>
+
+    <Button
+        android:id="@+id/uploadPdfBu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="upload"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout><LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/drawPdf"
+
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+
+        android:foreground="@drawable/baseline_picture_as_pdf_24"
+        android:text="select"
+        android:textSize="10sp"
+        app:icon="@android:drawable/divider_horizontal_bright"/>
+
+    <EditText
+        android:id="@+id/pdfME104Title"
+        android:layout_width="500dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:background="#DBE5EA"
+        android:hint="pdf ME104 title"/>
+
+    <Button
+        android:id="@+id/uploadPdfB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="upload"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout><LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/ddPdf"
+
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+
+        android:foreground="@drawable/baseline_picture_as_pdf_24"
+        android:text="select"
+        android:textSize="10sp"
+        app:icon="@android:drawable/divider_horizontal_bright"/>
+
+    <EditText
+        android:id="@+id/pdfMT103Title"
+        android:layout_width="500dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:background="#DBE5EA"
+        android:hint="pdf MT103 title"/>
+
+    <Button
+        android:id="@+id/uploadPdfBn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="upload"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout><LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/ttPdf"
+
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+
+        android:foreground="@drawable/baseline_picture_as_pdf_24"
+        android:text="select"
+        android:textSize="10sp"
+        app:icon="@android:drawable/divider_horizontal_bright"/>
+
+    <EditText
+        android:id="@+id/pdfCP101Title"
+        android:layout_width="500dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:background="#DBE5EA"
+        android:hint="pdf CP101 title"/>
+
+    <Button
+        android:id="@+id/uploadPdfBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="upload"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout><LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/bbPdf"
+
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+
+        android:foreground="@drawable/baseline_picture_as_pdf_24"
+        android:text="select"
+        android:textSize="10sp"
+        app:icon="@android:drawable/divider_horizontal_bright"/>
+
+    <EditText
+        android:id="@+id/pdfH103Title"
+        android:layout_width="500dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:background="#DBE5EA"
+        android:hint="pdf H103/H104 title"/>
+
+    <Button
+        android:id="@+id/uploadPdfBtton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="upload"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
